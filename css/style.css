@@ -1,0 +1,77 @@
+#promo{
+	background-image: url("../images/developer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px;
+	text-align: center;
+	min-height: 500px;
+	margin-top: 60px;
+}
+
+#promo .jumbotron{
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.75);
+	padding: 40px;
+	min-height: 350px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.jumbotron img{
+	border-radius: 20px;
+	border:5px solid #3f3f3f;
+	width: 200px;
+	height: 200px;
+}
+
+.jumbotron button a{
+	text-decoration: none ;
+	color:#FFF ;
+}
+
+.row{
+	min-height: 250px;
+	padding: 20px;
+}
+
+.row img{
+	padding: 20px;
+	border:1px solid black;
+	border-radius: 20px;
+}
+
+.row td{
+	padding: 3px;
+}
+
+.row td:first-child{
+	font-weight: bold;
+}
+
+#gallery-row{
+	background-color: #efefef;
+}
+
+#contact-section{
+	background-color: #efefef;
+	margin-bottom: 60px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding:20px;
+}
+
+#btnSubmit{
+	display: block;
+	margin: 0 auto;
+}
+
+/*Media Query for Smaller Size devices*/
+@media(max-width: 800px){
+#promo .jumbotron{
+	padding: 20px;
+}	
+#promo{
+	padding: 20px;
+}
+}
+
