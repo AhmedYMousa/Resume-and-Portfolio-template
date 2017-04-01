@@ -1,3 +1,6 @@
+.navbar-default {
+	opacity: 0.90;
+}
 #promo{
 	background-image: url("../images/developer.jpg");
 	background-repeat: no-repeat;
@@ -65,13 +68,58 @@
 	margin: 0 auto;
 }
 
+section {
+	width:29%;
+	float: left;
+	margin:2% 2%;
+	text-align: center;
+}
+section ul {
+	list-style-type: none;
+}
+section ul li {
+	display: inline-block;
+	padding: 2% 3%;
+}
+
+section ul li a {
+	text-decoration: none;
+}
+
+section ul li a>img{
+	width: 50px;
+	height: 50px;
+}
+#footer-img img{
+	width:200px;
+	height: 200px;
+}
+.copy-right {
+	text-align: center;
+	height:60px;
+	background-color: #3f3f3f;
+}
+
+.copy-right p {
+	color: #fff;
+	margin-bottom: 0;
+	padding-top: 20px;
+
+}
+
+footer{
+	background-color: #f0f0f0;
+}
 /*Media Query for Smaller Size devices*/
-@media(max-width: 800px){
+@media(max-width: 767px){
 #promo .jumbotron{
 	padding: 20px;
 }	
 #promo{
 	padding: 20px;
+}
+section {
+	width:100%;
 }
 }
 
